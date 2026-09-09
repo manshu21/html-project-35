@@ -1,4 +1,4 @@
-# Workout Budyyy 🏋️
+# Workout Budyyy 
 
 Workout Budyyy is a MERN stack workout tracking application.
 
