@@ -1,0 +1,16 @@
+{
+  "name": "workout-budyyy",
+  "private": true,
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "mongodb": "^7.6.0"
+  }
+}
